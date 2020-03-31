@@ -1,0 +1,12 @@
+language: go
+
+go: "1.14"
+
+install:
+  - . ./.ninja-install.sh
+  - . ./.bood-install.sh
+  - go get -u golang.org/x/tools/cmd/godoc
+
+script:
+  - cd $GOPATH/src/github.com/lesia-s/design-practice-2/build
+  - bood-linux

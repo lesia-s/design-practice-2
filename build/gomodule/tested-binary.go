@@ -9,7 +9,7 @@ import (
 
 var (
 	// Package context used to define Ninja build rules.
-	pctx = blueprint.NewPackageContext("github.com/tnsts/design-practice-2/build/gomodule")
+	pctx = blueprint.NewPackageContext("github.com/lesia-s/design-practice-2/build/gomodule")
 
 	// Ninja rule to execute go build.
 	goBuild = pctx.StaticRule("binaryBuild", blueprint.RuleParams{

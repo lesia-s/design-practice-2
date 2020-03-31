@@ -1,4 +1,4 @@
-module github.com/tnsts/design-practice-2
+module github.com/lesia-s/design-practice-2
 
 go 1.14
 

@@ -3,9 +3,9 @@ go_binary {
   name: "bood_rebase",
 
   // Go package to build.
-  pkg: "github.com/tnsts/design-practice-2/build/cmd/bood",
+  pkg: "github.com/lesia-s/design-practice-2/build/cmd/bood",
 
-  testPkg: "github.com/tnsts/design-practice-2/build/cmd/bood/tests",
+  testPkg: "github.com/lesia-s/design-practice-2/build/cmd/bood/tests",
 
   // Build inputs.
   srcs: ["**/*[^test].go", "../go.mod"],

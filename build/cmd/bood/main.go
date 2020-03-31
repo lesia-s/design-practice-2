@@ -4,7 +4,7 @@ import (
 	"flag"
 	"github.com/google/blueprint"
 	"github.com/roman-mazur/bood"
-	"github.com/tnsts/design-practice-2/build/gomodule"
+	"github.com/lesia-s/design-practice-2/build/gomodule"
 	"io/ioutil"
 	"log"
 	"os"
