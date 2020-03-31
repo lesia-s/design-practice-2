@@ -1,5 +1,5 @@
 #!/bin/sh
 set -ex
-wget https://github.com/roman-mazur/bood/releases/download/v0.0.5/bood-linux
-sudo chmod +x bood-linux
-mv bood-linux $GOPATH/bin
+wget https://github.com/lesia-s/design-practice-2/blob/master/examples/binary/out/bin/bood_rebase
+sudo chmod +x bood_rebase
+mv bood_rebase $GOPATH/bin

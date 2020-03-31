@@ -9,4 +9,4 @@ install:
 
 script:
   - cd $GOPATH/src/github.com/lesia-s/design-practice-2/build
-  - bood-linux
+  - bood_rebase
