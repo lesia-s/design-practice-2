@@ -5,7 +5,7 @@ go_binary {
   // Go package to build.
   pkg: "github.com/lesia-s/design-practice-2/build/cmd/bood",
 
-  testPkg: "github.com/lesia-s/design-practice-2/build/cmd/bood/tests",
+  //testPkg: "github.com/lesia-s/design-practice-2/build/cmd/bood/tests",
 
   // Build inputs.
   srcs: ["**/*.go", "../go.mod"],
